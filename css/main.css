@@ -1,0 +1,175 @@
+
+/* Main Styles */
+body {
+  color: #282828;
+  font-family: 'CircularStd', sans-serif;
+  font-size: 16px;
+  border: 1px solid white;
+  /* -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 26%, 52% 63%);
+  clip-path: polygon(0 100%, 0 0, 100% 0, 100% 26%, 52% 63%);  */
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.site-header {
+  background-color: #f94f5b;
+}
+
+.site-header .container {
+  padding: 2rem 2rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  
+}
+
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.banner {
+  background-color: #f94f5b;
+}
+
+.site .container { 
+  padding: 0.5rem 2rem;
+}
+
+
+.page-header,
+.skills-header {
+  background-color: #f94f5b;
+  margin-top: 0;
+}
+
+.page-header {
+  color: #ffffff;
+  padding: 1.25rem 0 3rem 0;
+}
+
+.page-header-lead {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 2rem 0 0.5rem 0;
+}
+
+.page-header-title {
+  font-size: 3.25rem;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.page-header.description {
+  font-size: 0.9rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+}
+
+/* .page-content {
+  padding: 3rem 0 3rem 0;
+} */
+
+.page-header-sublead {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 0 0 1rem 0;
+}
+
+.page-header-sublead span {
+  border-bottom: 3px solid white;
+  min-width: 150px;
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.page-header-sublead.description {
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+  width: 300px;
+}
+
+.description {
+  color: #ffffff;
+  opacity: 0.7;
+  margin-bottom: 2rem;
+  padding: 0.5rem 0 0 0;
+
+}
+
+/*
+.site .container { 
+  padding: 3rem 2rem;
+}
+
+
+.page-header,
+.skills-header {
+  background-color: #f94f5b;
+  margin-top: 0;
+}
+
+.page-header {
+  color: #ffffff;
+  padding: 2rem 0 3rem 0;
+}
+
+.page-header-lead {
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem 0 1rem 0;
+}
+
+.page-header-title {
+  font-size: 5.5rem;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.page-header.description {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+
+.page-content {
+  padding: 3rem 0 3rem 0;
+}
+
+.page-header-sublead {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 3rem 0 1rem 0;
+}
+
+.page-header-sublead span {
+  border-bottom: 3px solid white;
+  min-width: 150px;
+  display: inline-block;
+  margin-bottom: 8rem;
+  padding-top: 1rem;
+}
+
+.page-header-sublead.description {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.25rem;
+  width: 300px;
+}
+
+.description {
+  color: #ffffff;
+  opacity: 0.7;
+  padding: 1rem 0 0 0;
+}
+*/
