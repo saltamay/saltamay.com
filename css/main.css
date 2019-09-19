@@ -40,7 +40,7 @@ body {
 }
 
 .site .container { 
-  padding: 0.5rem 2rem;
+  padding: 1.5rem 2rem;
 }
 
 
@@ -107,18 +107,23 @@ body {
 
 }
 
+.page-content .container {
+  padding: 1rem 0.5rem;
+}
+
 .skills-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .skills-card {
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   margin-top: 1rem;
-  padding: 3rem 2rem;
-  max-width: 130px;
+  padding: 0.5rem 0.5rem;
+  max-width: 160px;
 }
 
 .skills-card:hover {
