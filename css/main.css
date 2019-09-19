@@ -1,6 +1,7 @@
 
 /* Main Styles */
 body {
+  background-color: #ffffff;
   color: #282828;
   font-family: 'CircularStd', sans-serif;
   font-size: 16px;
@@ -106,7 +107,47 @@ body {
 
 }
 
+.skills-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
+.skills-card {
+  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  margin-top: 1rem;
+  padding: 3rem 2rem;
+  max-width: 130px;
+}
+
+.skills-card:hover {
+  background-color: #f94f5b;
+}
+
+.skills-card-icon {
+  padding: 1rem 0;
+}
+
+.skills-card-title {
+  color: #000000;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0;
+}
+
+.skills-card-description {  
+  color: #282828;
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  padding: 1rem 0 2rem 0;
+}
+
+.skills-card-link {
+  color: #000000;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
 
 /*
 .site .container { 
