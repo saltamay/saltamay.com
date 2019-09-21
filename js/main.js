@@ -7,3 +7,11 @@ function toogleMenu() {
 
 menuBar.addEventListener('click', toogleMenu);
 
+// Display menu vertically when hamburger menu clicked
+const navi = document.querySelector('.site-navigation');
+
+function displayMenu() {
+  navi.classList.toggle('open');
+}
+
+menuBar.addEventListener('click', displayMenu);

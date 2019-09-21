@@ -54,16 +54,44 @@ body {
   padding: 2rem 2rem;
 }
 
-.menu {
+.site-navigation {
+  display: none;
+}
+
+.site-navigation.open {
+  background-color: #f94f5b;
+  display: block;
+  height: 510px;
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+/* .menu {
   display: none;
   justify-content: flex-start;
-  
-}
+} */
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 150px auto
+} 
 
 .menu a {
   color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 10px 0;
   text-decoration: none;
-  margin-right: 1rem;
+  text-align: center;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
 }
 
 .banner {
