@@ -170,7 +170,8 @@ body {
   padding: 1rem 0.5rem;
 }
 
-.skills-cards {
+.skills-cards,
+.updates-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -182,7 +183,7 @@ body {
   border-radius: 15px;
   margin: 1rem auto;
   padding: 0.5rem 0.5rem;
-  max-width: 85%;
+  max-width: 80%;
 }
 
 .skills-card:hover {
@@ -193,14 +194,17 @@ body {
   padding: 1rem 0;
 }
 
-.skills-card-title {
+.skills-card-title,
+.updates-title,
+.updates-card-title {
   color: #000000;
   font-size: 1.5rem;
   font-weight: bold;
   padding: 1rem 0;
 }
 
-.skills-card-description {  
+.skills-card-description,
+.updates-card-description {  
   color: #282828;
   font-size: 1.05rem;
   line-height: 1.5rem;
@@ -211,6 +215,52 @@ body {
   color: #000000;
   font-size: 1.15rem;
   font-weight: 600;
+}
+
+.updates-title {
+  border-bottom: 3px solid #f94f5b;
+}
+
+.latest-updates {
+  background-color: #f0f0f0;
+}
+
+.updates-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 1rem auto;
+  padding: 0.5rem 0.5rem;
+  text-align: center;
+  max-width: 90%;
+}
+
+.updates-card-title {
+  font-weight: 500;
+  text-align: center;
+}
+
+.updates-card-description {
+  font-size: 0.90rem;
+  line-height: 1.25;
+  font-weight: 300;
+}
+
+.updates-card-link {
+  color: #4F9FF9;
+  /* text-decoration: none; */
+}
+
+/* .updates-card-link:hover {
+  text-decoration: default;
+} */
+
+footer {
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  padding: 20px 0;
+  text-align: center;
 }
 
 /*
