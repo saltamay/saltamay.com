@@ -180,9 +180,9 @@ body {
 .skills-card {
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  margin-top: 1rem;
+  margin: 1rem auto;
   padding: 0.5rem 0.5rem;
-  max-width: 160px;
+  max-width: 85%;
 }
 
 .skills-card:hover {
