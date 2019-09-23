@@ -103,4 +103,18 @@
     background-color: #fff;
     width: 46%;
   }
+
+  .updates-title,
+  .latest-updates {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .updates-title {
+    margin-bottom: 25px;
+  }
+
+  .latest-updates {
+    border-radius: 10px;
+  }
 }
