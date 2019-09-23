@@ -61,6 +61,29 @@
     max-width: 100%;
     width: 23%;
   }
+
+  .bar-container {
+    display: none;
+  }
+
+  .site-navigation {
+    display: block;
+  }
+
+  .menu {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 0;
+  }
+
+  .menu a {
+    font-size: 1.25rem;
+    padding: 10px 10px;
+  }
+
+  .menu a:last-of-type {
+    padding-right: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -72,12 +95,12 @@
   .skills-cards {
     position: relative;
     top: -150px;
-    left: 30%;
+    left: 25%;
     max-width: 992px;
   }
 
   .skills-card {
     background-color: #fff;
-    width: 45%;
+    width: 46%;
   }
 }
