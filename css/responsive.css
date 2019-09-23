@@ -70,7 +70,14 @@
 @media screen and (min-width: 1200px) {
 
   .skills-cards {
+    position: relative;
+    top: -150px;
+    left: 30%;
     max-width: 992px;
-    margin-left: 20%;    
+  }
+
+  .skills-card {
+    background-color: #fff;
+    width: 45%;
   }
 }
