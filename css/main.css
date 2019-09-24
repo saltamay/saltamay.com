@@ -233,9 +233,14 @@ body {
   border-bottom: 3px solid #f94f5b;
 }
 
+.references {
+  padding: 0 0 3rem 0;
+}
+
 blockquote {
   margin: 0 auto;
   max-width: 800px; 
+  padding: 4rem 0 1rem 0;
   width: 90%;
 }
 
@@ -263,7 +268,7 @@ blockquote p {
 .project-card {
   background-color: #fff;
   border: 1px solid #ddd;
-  margin: 1rem auto;
+  margin: 1rem 0;
   padding: 0.5rem 0.5rem;
   text-align: center;
   width: 100%;
