@@ -172,7 +172,8 @@ body {
 }
 
 .skills-cards,
-.updates-cards {
+.updates-cards,
+.projects-cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -197,7 +198,8 @@ body {
 
 .skills-card-title,
 .updates-title,
-.updates-card-title {
+.updates-card-title,
+.projects-title {
   color: #000000;
   font-size: 1.5rem;
   font-weight: bold;
@@ -218,18 +220,20 @@ body {
   font-weight: 600;
 }
 
-.updates-title {
+.updates-title,
+.projects-title {
   border-bottom: 3px solid #f94f5b;
 }
 
-.latest-updates {
+.latest-updates,
+.latest-projects {
   background-color: #f0f0f0;
 }
 
-.updates-card {
+.updates-card,
+.project-card {
   background-color: #fff;
   border: 1px solid #ddd;
-  /* border-radius: 5px; */
   margin: 1rem auto;
   padding: 0.5rem 0.5rem;
   text-align: center;
@@ -272,70 +276,3 @@ footer {
   text-align: center;
 }
 
-/*
-.site .container { 
-  padding: 3rem 2rem;
-}
-
-
-.page-header,
-.skills-header {
-  background-color: #f94f5b;
-  margin-top: 0;
-}
-
-.page-header {
-  color: #ffffff;
-  padding: 2rem 0 3rem 0;
-}
-
-.page-header-lead {
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 2rem 0 1rem 0;
-}
-
-.page-header-title {
-  font-size: 5.5rem;
-  font-weight: 600;
-  padding-left: 5px;
-}
-
-.page-header.description {
-  font-size: 1.25rem;
-  font-weight: 600;
-  line-height: 1.75rem;
-}
-
-.page-content {
-  padding: 3rem 0 3rem 0;
-}
-
-.page-header-sublead {
-  color: #ffffff;
-  font-size: 2rem;
-  font-weight: 600;
-  padding: 3rem 0 1rem 0;
-}
-
-.page-header-sublead span {
-  border-bottom: 3px solid white;
-  min-width: 150px;
-  display: inline-block;
-  margin-bottom: 8rem;
-  padding-top: 1rem;
-}
-
-.page-header-sublead.description {
-  font-size: 1rem;
-  font-weight: 300;
-  line-height: 1.25rem;
-  width: 300px;
-}
-
-.description {
-  color: #ffffff;
-  opacity: 0.7;
-  padding: 1rem 0 0 0;
-}
-*/
