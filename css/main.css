@@ -201,7 +201,9 @@ body {
 .updates-card-title,
 .projects-title,
 .references-title,
-.author-title {
+.author-title,
+.archives-title,
+.social-links-title {
   color: #000000;
   font-size: 1.5rem;
   font-weight: bold;
@@ -225,7 +227,9 @@ body {
 .updates-title,
 .projects-title,
 .references-title,
-.author-title {
+.author-title,
+.archives-title,
+.social-links-title {
   border-bottom: 3px solid #f94f5b;
 }
 

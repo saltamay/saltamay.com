@@ -1,4 +1,5 @@
 /* Main Styles */
+
 header {
   min-height: 100px;
 }
@@ -6,6 +7,10 @@ header {
 .site .container {
   display: grid;
   grid-auto-rows: minmax(100px, auto);
+}
+
+.updates-title {
+  width: 100%;
 }
 
 .blog-main {
@@ -44,7 +49,7 @@ header {
 
 .blog-content p {
   font-size: 1.25rem;
-  line-height: 1.35;
+  line-height: 1.5;
   padding: 1rem 0;
 }
 
@@ -56,6 +61,7 @@ header {
 .about-author-card {
   margin: 0 auto;
   max-width: 960px;
+  padding-bottom: 2rem;
 }
 
 .about-author-card img {
@@ -67,6 +73,27 @@ header {
 
 .author-bio {
   padding: 1rem 1rem 0 1rem;
+}
+
+.archives {
+  display: none;
+}
+
+.archives-links {
+  padding: 2rem 0;
+}
+
+.social-links-list {
+  padding: 2rem 0;
+}
+
+.social-links {
+  display: none;
+}
+
+.archives-links-list li,
+.social-links-list li {
+  padding: 0.5rem 0;
 }
 
 
