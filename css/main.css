@@ -199,7 +199,8 @@ body {
 .skills-card-title,
 .updates-title,
 .updates-card-title,
-.projects-title {
+.projects-title,
+.references-title {
   color: #000000;
   font-size: 1.5rem;
   font-weight: bold;
@@ -221,8 +222,30 @@ body {
 }
 
 .updates-title,
-.projects-title {
+.projects-title,
+.references-title {
   border-bottom: 3px solid #f94f5b;
+}
+
+blockquote {
+  margin: 0 auto;
+  max-width: 800px; 
+  width: 90%;
+}
+
+blockquote p {
+  font-size: 1.25rem;
+  line-height: 1.15;
+  text-align: center; 
+  margin: 0 auto;
+  width: 100%;
+}
+
+.id {
+  font-size: 1rem;
+  font-style: italic;
+  padding-top:0.50rem;
+  text-align: right; 
 }
 
 .latest-updates,
