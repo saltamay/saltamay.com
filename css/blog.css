@@ -1,0 +1,15 @@
+/* Main Styles */
+
+.blog-main-banner {
+  background-color: #fff;
+  color: #000;
+}
+
+.blog-main-banner p {
+  box-shadow: 5px 5px 2rem rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 2rem 1.5rem;
+  /* text-align: center; */
+
+}
