@@ -116,6 +116,24 @@
     width: 46%;
   }
 
+  .latest-projects {
+    position: relative;
+    top: -100px;
+    left: 0;
+  }
+
+  .references {
+    position: relative;
+    top: -100px;
+    left: 0;
+  }
+
+  .latest-updates {
+    position: relative;
+    top: -100px;
+    left: 0;
+  }
+
   .updates-title,
   .latest-updates {
     margin: 0 auto;
