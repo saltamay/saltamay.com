@@ -65,7 +65,7 @@ header {
 }
 
 .author-info-box {
-  padding: 0 1rem 0.5 1rem;
+  padding: 0 1rem 0.5rem 1rem;
   width: 100%;
 }
 
@@ -168,7 +168,7 @@ header {
 @media screen and (min-width: 992px) {
   
   .blog-content figure {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
   }
 
