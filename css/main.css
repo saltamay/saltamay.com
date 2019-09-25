@@ -274,6 +274,10 @@ blockquote p {
   width: 100%;
 }
 
+.project-card a img {
+  width: 100%;
+}
+
 .updates-card-title {
   font-size: 1.25rem;
   font-weight: 600;
@@ -296,6 +300,10 @@ blockquote p {
 .updates-card-link {
   color: #4F9FF9;
   text-decoration: none;
+}
+
+.updates-card a img {
+  width: 100%;
 }
 
 .updates-card-link:hover {
