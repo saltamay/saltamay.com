@@ -186,6 +186,10 @@ header {
     grid-area: main;
   }
 
+  .blog-content p {
+    padding-right: 2rem;
+  }
+
   .updates-header {
     grid-area: hd;
   }
