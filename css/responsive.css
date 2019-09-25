@@ -112,8 +112,10 @@
   }
 
   .skills-card {
+    box-shadow: 5px 5px 32px 0 rgba(0, 0, 0, 0.2);
     background-color: #fff;
-    width: 46%;
+    padding: 5rem 2rem 5rem 2rem;
+    width: 41%;
   }
 
   .latest-projects {

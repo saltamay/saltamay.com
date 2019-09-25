@@ -168,7 +168,7 @@ body {
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   margin: 1rem auto;
-  padding: 0.5rem 0.5rem;
+  padding: 1rem 0.5rem 2rem 0.5rem;
   max-width: 80%;
 }
 
