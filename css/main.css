@@ -6,12 +6,9 @@ body {
   font-family: 'CircularStd', sans-serif;
   font-size: 16px;
   border: 1px solid white;
-  /* -webkit-clip-path: polygon(0 100%, 0 0, 100% 0, 100% 26%, 52% 63%);
-  clip-path: polygon(0 100%, 0 0, 100% 0, 100% 26%, 52% 63%);  */
 }
 
 .bar-container {
-  /* display: inline-block; */
   cursor: pointer;
   float: right;
 }
@@ -68,19 +65,6 @@ body {
   width: 100%;
   z-index: 9;
 }
-
-/* .site-navigation::after {
-    background: rgba(0, 0, 0, 0.4);
-    content: "";
-    display: block;
-    height: 100%;
-    left: 0;
-} */
-
-/* .menu {
-  display: none;
-  justify-content: flex-start;
-} */
 
 .menu {
   display: flex;
