@@ -21,6 +21,7 @@ body {
   transition: 0.4s;
 }
 
+/* Source: https://www.w3schools.com/howto/howto_css_menu_icon.asp */
 /* Rotate first bar */
 .change .menu-bar1 {
   -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
@@ -73,7 +74,7 @@ body {
 } 
 
 .menu a {
-  color: #ffffff;
+  color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
   padding: 10px 0;
@@ -83,11 +84,11 @@ body {
 
 .menu a:hover {
   text-decoration: underline;
-  text-decoration-color: #ffffff;
+  text-decoration-color: #fff;
 }
 
 .banner {
-  background-color: #f94f5b;
+  background-color: f94f5b;
 }
 
 .site .container { 
@@ -130,14 +131,14 @@ body {
 }
 
 .page-header-sublead {
-  color: #ffffff;
+  color: #fff;
   font-size: 2rem;
   font-weight: 600;
   padding: 0 0 1rem 0;
 }
 
 .page-header-sublead span {
-  border-bottom: 3px solid white;
+  border-bottom: 3px solid #fff;
   min-width: 150px;
   display: inline-block;
   margin-bottom: 1rem;
@@ -145,9 +146,11 @@ body {
 }
 
 .page-header-sublead.description {
+  color: #fff;
   font-size: 0.9rem;
   font-weight: 300;
   line-height: 1.25rem;
+  opacity: 0.7;
   width: 300px;
 }
 
@@ -214,6 +217,7 @@ body {
 .author-title,
 .archives-title,
 .social-links-title {
+  color: #000;
   border-bottom: 3px solid #f94f5b;
 }
 
