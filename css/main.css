@@ -154,6 +154,15 @@ body {
   width: 300px;
 }
 
+.social-links a img {
+  width: 35px;
+  padding-left: 0.75rem;
+}
+
+.social-links a:first-child img {
+  padding-left: 0;
+}
+
 .page-content .container {
   padding: 1rem 0.5rem;
 }
