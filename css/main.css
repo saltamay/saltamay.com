@@ -296,13 +296,14 @@ blockquote p {
 .learn-more a:first-child img {
   padding-right: 0.75rem;
   width: 65px;
-  /* height: 100px; */
 }
 
 .learn-more a img {
-  /* padding: 1rem 0.5rem 1rem 0; */
   width: 23px;
-  /* height: 100px; */
+}
+
+#bitguard {
+  width: 23px;
 }
 
 .updates-card-title {
