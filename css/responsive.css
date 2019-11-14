@@ -129,13 +129,12 @@
 
   .references {
     position: relative;
-    top: -100px;
+    top: -50px;
     left: 0;
   }
 
   .latest-updates {
     position: relative;
-    /* top: -100px; */
     left: 0;
   }
 

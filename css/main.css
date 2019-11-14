@@ -220,10 +220,6 @@ body {
   font-weight: 600;
 }
 
-/* .skills-card:hover {
-  background-color: #f94f5b;
-  color: #fff;
-} */
 
 .updates-title,
 .projects-title,
@@ -272,7 +268,6 @@ blockquote p {
   border: 1px solid #ddd;
   margin: 1rem 0;
   padding: 0.5rem 0.5rem;
-  /* text-align: center; */
   width: 100%;
 }
 
