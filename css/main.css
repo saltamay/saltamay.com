@@ -258,12 +258,51 @@ blockquote p {
   border: 1px solid #ddd;
   margin: 1rem 0;
   padding: 0.5rem 0.5rem;
-  text-align: center;
+  /* text-align: center; */
   width: 100%;
 }
 
 .project-card a img {
   width: 100%;
+}
+
+.project-card-content {
+  padding: 0.5rem 0.5rem;
+}
+
+.project-card-content h1 {
+  font-size: 1.5rem;
+  padding: 0.5rem 0.25rem 0;
+}
+
+.project-card-content h4 {
+  font-size: 0.9rem;
+  font-style: italic;
+  padding: 0.5rem 0;
+  opacity: 0.65;
+}
+
+.project-card-content p {
+  font-size: 0.9rem;
+  line-height: 1.25;
+  padding: 0.5rem 0;
+  opacity: 0.85;
+}
+
+.learn-more {
+  padding: 1rem 0 0.5rem 0;
+}
+
+.learn-more a:first-child img {
+  padding-right: 0.75rem;
+  width: 65px;
+  /* height: 100px; */
+}
+
+.learn-more a img {
+  /* padding: 1rem 0.5rem 1rem 0; */
+  width: 23px;
+  /* height: 100px; */
 }
 
 .updates-card-title {
