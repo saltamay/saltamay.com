@@ -156,11 +156,15 @@ body {
 
 .social-links a img {
   width: 35px;
-  padding-left: 0.75rem;
+  margin-left: 0.75rem;
 }
 
 .social-links a:first-child img {
-  padding-left: 0;
+  margin-left: 0;
+}
+
+.social-links a img:hover {
+  width: 38px;
 }
 
 .page-content .container {
@@ -184,10 +188,6 @@ body {
   max-width: 80%;
 }
 
-.skills-card:hover {
-  background-color: #f94f5b;
-}
-
 .skills-card-icon {
   padding: 1rem 0;
 }
@@ -200,7 +200,7 @@ body {
 .author-title,
 .archives-title,
 .social-links-title {
-  color: #000000;
+  /* color: #000000; */
   font-size: 1.5rem;
   font-weight: bold;
   padding: 1rem 0;
@@ -208,7 +208,7 @@ body {
 
 .skills-card-description,
 .updates-card-description {  
-  color: #282828;
+  /* color: #282828; */
   font-size: 1.05rem;
   line-height: 1.5rem;
   padding: 1rem 0 2rem 0;
@@ -219,6 +219,11 @@ body {
   font-size: 1.15rem;
   font-weight: 600;
 }
+
+/* .skills-card:hover {
+  background-color: #f94f5b;
+  color: #fff;
+} */
 
 .updates-title,
 .projects-title,
