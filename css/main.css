@@ -1,11 +1,135 @@
+/**
+  Colors:
+  
+  Medium: #F94F5B
+  Dark: #FF3864
+
+
+**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Main Styles */
 body {
-  background-color: #ffffff;
-  color: #282828;
+  color: #261447;
   font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size: 16px;
-  border: 1px solid white;
+  line-height: 1.8;
+  padding: 20px;
+}
+
+.main-header {
+  background-image: linear-gradient(to right, #f94f5b, #ff3864);
+  height: 98vh;
+
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+}
+
+.heading-container {
+  align-items: center;
+  display: flex;
+  height: 95%;
+  justify-content: center;
+}
+
+.heading-primary {
+  color: #fff;
+  /* text-transform: uppercase; */
+
+  /* backface-visibility: hidden; */
+
+  /* margin-bottom: 60px; */
+}
+
+.heading-primary-intro {
+  margin-left: 40px;
+  font-size: 10rem;
+  letter-spacing: 5px;
+}
+
+.heading-primary-main {
+  background-color: #fff;
+  color: rgba(249, 78, 89, 0.9);
+  display: inline-block;
+  font-size: 12.5rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin: 0 0 30px 60px;
+  padding: 20px 0 40px 0;
+  text-align: center;
+  min-width: 1000px;
+
+  animation-name: moveInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+
+  /*
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+  */
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.heading-primary-sub {
+  display: block;
+  font-size: 27px;
+  font-weight: 700;
+  letter-spacing: 12px;
+  margin-left: 60px;
+
+  animation: moveInBottom 1s ease-out 0.75s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.heading-primary-main span:before {
+  content: 'sal tamay';
+  animation: switchText 12s ease-out 4s infinite;
+}
+
+@keyframes switchText {
+  0% {
+    content: 'creative';
+  }
+
+  45% {
+    content: 'developer';
+  }
+
+  60% {
+    content: 'designer';
+  }
+
+  80% {
+    content: 'engineer';
+  }
 }
 
 .bar-container {
@@ -13,7 +137,9 @@ body {
   float: right;
 }
 
-.menu-bar1, .menu-bar2, .menu-bar3 {
+.menu-bar1,
+.menu-bar2,
+.menu-bar3 {
   width: 35px;
   height: 5px;
   background-color: #fff;
@@ -24,8 +150,8 @@ body {
 /* Source: https://www.w3schools.com/howto/howto_css_menu_icon.asp */
 /* Rotate first bar */
 .change .menu-bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 /* Fade out the second bar */
@@ -35,8 +161,8 @@ body {
 
 /* Rotate last bar */
 .change .menu-bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .container {
@@ -70,8 +196,8 @@ body {
 .menu {
   display: flex;
   flex-direction: column;
-  margin: 140px auto
-} 
+  margin: 140px auto;
+}
 
 .menu a {
   color: #fff;
@@ -91,10 +217,9 @@ body {
   background-color: #f94f5b;
 }
 
-.site .container { 
+.site .container {
   padding: 1.5rem 2rem;
 }
-
 
 .page-header,
 .skills-header {
@@ -207,7 +332,7 @@ body {
 }
 
 .skills-card-description,
-.updates-card-description {  
+.updates-card-description {
   /* color: #282828; */
   font-size: 1.05rem;
   line-height: 1.5rem;
@@ -219,7 +344,6 @@ body {
   font-size: 1.15rem;
   font-weight: 600;
 }
-
 
 .updates-title,
 .projects-title,
@@ -237,7 +361,7 @@ body {
 
 blockquote {
   margin: 0 auto;
-  max-width: 800px; 
+  max-width: 800px;
   padding: 4rem 0 1rem 0;
   width: 90%;
 }
@@ -245,7 +369,7 @@ blockquote {
 blockquote p {
   font-size: 1.25rem;
   line-height: 1.15;
-  text-align: center; 
+  text-align: center;
   margin: 0 auto;
   width: 100%;
 }
@@ -253,8 +377,8 @@ blockquote p {
 .id {
   font-size: 1rem;
   font-style: italic;
-  padding-top:0.50rem;
-  text-align: right; 
+  padding-top: 0.5rem;
+  text-align: right;
 }
 
 .latest-updates,
@@ -329,13 +453,13 @@ blockquote p {
 }
 
 .updates-card-description {
-  font-size: 0.90rem;
+  font-size: 0.9rem;
   line-height: 1.25;
   font-weight: 300;
 }
 
 .updates-card-link {
-  color: #4F9FF9;
+  color: #4f9ff9;
   text-decoration: none;
 }
 
@@ -354,4 +478,3 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-
