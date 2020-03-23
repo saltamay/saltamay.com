@@ -2,6 +2,13 @@
 
 .blog-main-banner {
   background-color: #fff;
+}
+
+.blog-main-banner a {
+  color: #000;
+}
+
+.blog-main-banner a:hover {
   color: #000;
 }
 
