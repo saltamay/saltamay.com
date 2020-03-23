@@ -60,7 +60,7 @@ body {
 .site-navigation.open {
   background-color: #f94f5b;
   display: block;
-  height: 460px;
+  height: 100vh;
   position: absolute;
   top: 65px;
   left: 0;
@@ -76,9 +76,10 @@ body {
 
 .menu a {
   color: #fff;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
-  padding: 10px 10px;
+  /* padding: 10px 10px; */
+  line-height: 2;
   text-decoration: none;
   text-align: center;
 }
@@ -259,7 +260,7 @@ blockquote p {
 
 .reference-text:before {
   content: '';
-  animation: switchReferences 16s ease-out infinite;
+  animation: switchReferences 20s ease-out infinite;
 }
 
 .reference-author {
@@ -329,8 +330,8 @@ blockquote p {
 }
 
 .project-card-content p {
-  font-size: 0.9rem;
-  line-height: 1.25;
+  font-size: 1rem;
+  line-height: 1.5;
   padding: 0.5rem 0;
   opacity: 0.85;
 }
