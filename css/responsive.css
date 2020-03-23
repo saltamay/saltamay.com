@@ -122,6 +122,17 @@
     left: 0;
   }
 
+  .projects-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .project-card {
+    width: 48%;
+  }
+
   .references {
     position: relative;
     top: -50px;

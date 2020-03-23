@@ -251,17 +251,47 @@ blockquote {
 
 blockquote p {
   font-size: 1.25rem;
-  line-height: 1.15;
+  line-height: 1.5;
   text-align: center;
   margin: 0 auto;
   width: 100%;
 }
 
-.id {
+.reference-text:before {
+  content: '';
+  animation: switchReferences 16s ease-out infinite;
+}
+
+.reference-author {
   font-size: 1rem;
   font-style: italic;
   padding-top: 0.5rem;
   text-align: right;
+}
+
+.reference-author:before {
+  content: '';
+  animation: switchAuthors 20s ease-out infinite;
+}
+
+@keyframes switchReferences {
+  0% {
+    content: 'I’ve had the pleasure of knowing and teaching Sal for six months, during his time at the University of Toronto Full Stack coding bootcamp. Sal proved to be one of the most committed and self-motivated students through his work. He consistently demonstrated a solid work ethic and a commitment to success. He exhibited high levels of teamwork, analytical/problem solving skills, and was a valuable contributor to team projects. Above all, I was impressed with Sal’s ability to learn complex concepts quickly and apply them to real life projects. I am confident that Sal’s technical aptitude in cutting edge web technologies combined with his commitment to improving his skills would make him a substantial addition to any engineering team.';
+  }
+
+  100% {
+    content: 'Sal and I have studied and worked on multiple projects during which I noticed that he is very solution-oriented person with exceptional problem-solving skills. Being the team leader, he kept the team motivated by helping others during the project development lifecycle.He was my go-to person for advice or solution for any technical problems. He is always committed to impart knowledge to other members of the team. He is never afraid, in fact more enthusiastic to learn anything new when it comes his way to prove his mettle. I am confident that with his out of the box thinking, and outstanding skills in different programming languages and frameworks in web technologies he will be an excellent team-member in company.';
+  }
+}
+
+@keyframes switchAuthors {
+  0% {
+    content: '~ Vishal Patel - University of Toronto Full Stack Bootcamp Lead Instructor';
+  }
+
+  100% {
+    content: '~ Anas Qazi - Teammate @University of Toronto Full Stack Bootcamp';
+  }
 }
 
 .latest-updates,
