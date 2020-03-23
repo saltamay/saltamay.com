@@ -1,4 +1,3 @@
-
 /* Main Styles */
 body {
   background-color: #ffffff;
@@ -13,7 +12,9 @@ body {
   float: right;
 }
 
-.menu-bar1, .menu-bar2, .menu-bar3 {
+.menu-bar1,
+.menu-bar2,
+.menu-bar3 {
   width: 35px;
   height: 5px;
   background-color: #fff;
@@ -24,8 +25,8 @@ body {
 /* Source: https://www.w3schools.com/howto/howto_css_menu_icon.asp */
 /* Rotate first bar */
 .change .menu-bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
 }
 
 /* Fade out the second bar */
@@ -35,8 +36,8 @@ body {
 
 /* Rotate last bar */
 .change .menu-bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
 }
 
 .container {
@@ -70,14 +71,14 @@ body {
 .menu {
   display: flex;
   flex-direction: column;
-  margin: 140px auto
-} 
+  margin: 140px auto;
+}
 
 .menu a {
   color: #fff;
   font-size: 1.5rem;
   font-weight: 600;
-  padding: 10px 0;
+  padding: 10px 10px;
   text-decoration: none;
   text-align: center;
 }
@@ -89,12 +90,13 @@ body {
 
 .banner {
   background-color: #f94f5b;
+  height: calc(100vh - 105px);
+  clip-path: polygon(0 0, 100% 0, 100% 50vh, 0 100%);
 }
 
-.site .container { 
+.site .container {
   padding: 1.5rem 2rem;
 }
-
 
 .page-header,
 .skills-header {
@@ -116,6 +118,7 @@ body {
 .page-header-title {
   font-size: 3.25rem;
   font-weight: 600;
+  margin-top: 20px;
   padding-left: 5px;
 }
 
@@ -128,6 +131,7 @@ body {
   font-size: 0.9rem;
   font-weight: 600;
   line-height: 1.25rem;
+  margin-top: 10px;
 }
 
 .page-header-sublead {
@@ -164,7 +168,11 @@ body {
 }
 
 .social-links a img:hover {
-  width: 38px;
+  transform: scale(1.1);
+}
+
+.page-content {
+  margin-top: -320px;
 }
 
 .page-content .container {
@@ -207,7 +215,7 @@ body {
 }
 
 .skills-card-description,
-.updates-card-description {  
+.updates-card-description {
   /* color: #282828; */
   font-size: 1.05rem;
   line-height: 1.5rem;
@@ -219,7 +227,6 @@ body {
   font-size: 1.15rem;
   font-weight: 600;
 }
-
 
 .updates-title,
 .projects-title,
@@ -237,7 +244,7 @@ body {
 
 blockquote {
   margin: 0 auto;
-  max-width: 800px; 
+  max-width: 800px;
   padding: 4rem 0 1rem 0;
   width: 90%;
 }
@@ -245,7 +252,7 @@ blockquote {
 blockquote p {
   font-size: 1.25rem;
   line-height: 1.15;
-  text-align: center; 
+  text-align: center;
   margin: 0 auto;
   width: 100%;
 }
@@ -253,8 +260,8 @@ blockquote p {
 .id {
   font-size: 1rem;
   font-style: italic;
-  padding-top:0.50rem;
-  text-align: right; 
+  padding-top: 0.5rem;
+  text-align: right;
 }
 
 .latest-updates,
@@ -329,13 +336,13 @@ blockquote p {
 }
 
 .updates-card-description {
-  font-size: 0.90rem;
+  font-size: 0.9rem;
   line-height: 1.25;
   font-weight: 300;
 }
 
 .updates-card-link {
-  color: #4F9FF9;
+  color: #4f9ff9;
   text-decoration: none;
 }
 
@@ -354,4 +361,3 @@ footer {
   padding: 20px 0;
   text-align: center;
 }
-

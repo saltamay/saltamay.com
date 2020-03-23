@@ -3,7 +3,6 @@
 /* Style for device screens larger than 398px */
 
 @media screen and (min-width: 398px) {
-
   /* Change the width of the card items */
   .skills-card {
     max-width: 100%;
@@ -15,7 +14,7 @@
   .site-navigation.open {
     height: 626px;
   }
-  
+
   .skills-card {
     max-width: 100%;
     width: 45%;
@@ -34,7 +33,6 @@
 }
 
 @media screen and (min-width: 640px) {
-
   .page-header {
     padding: 2rem 0 2rem 0;
   }
@@ -46,7 +44,7 @@
   }
 
   .page-header-title {
-    font-size: 5.5rem;
+    font-size: 7.5rem;
     font-weight: 600;
     padding-left: 5px;
   }
@@ -71,11 +69,9 @@
     width: 80%;
     margin: 0 auto;
   }
-  
 }
 
 @media screen and (min-width: 768px) {
-  
   .skills-card {
     max-width: 100%;
     width: 23%;
@@ -97,7 +93,7 @@
 
   .menu a {
     font-size: 1.25rem;
-    padding: 10px 10px;
+    padding: 10px 15px;
   }
 
   .menu a:last-of-type {
@@ -106,11 +102,10 @@
 }
 
 @media screen and (min-width: 1200px) {
-
   .skills-cards {
     position: relative;
     top: -150px;
-    left: 25%;
+    left: 40%;
     max-width: 992px;
   }
 
