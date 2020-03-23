@@ -3,18 +3,30 @@
 /* Style for device screens larger than 398px */
 
 @media screen and (min-width: 398px) {
+  .site-navigation.open {
+    height: 94vh;
+  }
   /* Change the width of the card items */
   .skills-card {
     max-width: 100%;
     width: 40%;
   }
+
+  .banner {
+    height: 75vh;
+  }
+
+  .page-content {
+    margin-top: 0px;
+  }
+
+  .reference-text {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (min-width: 576px) {
-  .site-navigation.open {
-    height: 626px;
-  }
-
   .skills-card {
     max-width: 100%;
     width: 45%;
@@ -69,6 +81,11 @@
     width: 80%;
     margin: 0 auto;
   }
+
+  .reference-text {
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -102,11 +119,19 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .banner {
+    height: calc(100vh - 105px);
+  }
+
+  .page-content {
+    margin-top: -320px;
+  }
+
   .skills-cards {
     position: relative;
     top: -150px;
     left: 40%;
-    max-width: 992px;
+    max-width: 60%;
   }
 
   .skills-card {
@@ -155,5 +180,11 @@
 
   .latest-updates {
     border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 1540px) {
+  .skills-cards {
+    max-width: 68%;
   }
 }
