@@ -260,7 +260,14 @@ blockquote p {
 
 .reference-text:before {
   content: '';
-  animation: switchReferences 20s ease-out infinite;
+  /* animation-name: switchReferences;
+  animation-duration: 16s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite; */
+  -webkit-animation: switchReferences 16s ease-out infinite;
+  -moz-animation: switchReferences 16s ease-out infinite;
+  -o-animation: switchReferences 16s ease-out infinite;
+  animation: switchReferences 16s ease-out infinite;
 }
 
 .reference-author {
@@ -272,7 +279,14 @@ blockquote p {
 
 .reference-author:before {
   content: '';
-  animation: switchAuthors 20s ease-out infinite;
+  -webkit-animation: switchAuthors 16s ease-out infinite;
+  -moz-animation: switchAuthors 16s ease-out infinite;
+  -o-animation: switchAuthors 16s ease-out infinite;
+  /* animation-name: switchAuthors;
+  animation-duration: 16s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite; */
+  animation: switchAuthors 16s ease-out infinite;
 }
 
 @keyframes switchReferences {
