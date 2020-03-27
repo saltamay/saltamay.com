@@ -190,11 +190,17 @@ body {
 }
 
 .skills-card {
-  box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   margin: 1rem auto;
   padding: 1rem 0.5rem 2rem 0.5rem;
   max-width: 80%;
+  transition: all 0.2s;
+}
+
+.skills-card:hover {
+  transform: scale(1.025) translateY(-0.5rem);
+  box-shadow: 0 15px 15px rgba(0, 0, 0, 0.2);
 }
 
 .skills-card-icon {
