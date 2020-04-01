@@ -266,14 +266,10 @@ blockquote p {
 
 .reference-text:before {
   content: '';
-  /* animation-name: switchReferences;
-  animation-duration: 16s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite; */
-  -webkit-animation: switchReferences 16s ease-out infinite;
-  -moz-animation: switchReferences 16s ease-out infinite;
-  -o-animation: switchReferences 16s ease-out infinite;
-  animation: switchReferences 16s ease-out infinite;
+  -webkit-animation: switchReferences 20s ease-out infinite;
+  -moz-animation: switchReferences 20s ease-out infinite;
+  -o-animation: switchReferences 20s ease-out infinite;
+  animation: switchReferences 20s ease-out infinite;
 }
 
 .reference-author {
@@ -285,19 +281,23 @@ blockquote p {
 
 .reference-author:before {
   content: '';
-  -webkit-animation: switchAuthors 16s ease-out infinite;
-  -moz-animation: switchAuthors 16s ease-out infinite;
-  -o-animation: switchAuthors 16s ease-out infinite;
-  /* animation-name: switchAuthors;
-  animation-duration: 16s;
-  animation-timing-function: ease-out;
-  animation-iteration-count: infinite; */
-  animation: switchAuthors 16s ease-out infinite;
+  -webkit-animation: switchAuthors 20s ease-out infinite;
+  -moz-animation: switchAuthors 20s ease-out infinite;
+  -o-animation: switchAuthors 20s ease-out infinite;
+  animation: switchAuthors 20s ease-out infinite;
 }
 
 @keyframes switchReferences {
   0% {
     content: 'I’ve had the pleasure of knowing and teaching Sal for six months, during his time at the University of Toronto Full Stack coding bootcamp. Sal proved to be one of the most committed and self-motivated students through his work. He consistently demonstrated a solid work ethic and a commitment to success. He exhibited high levels of teamwork, analytical/problem solving skills, and was a valuable contributor to team projects. Above all, I was impressed with Sal’s ability to learn complex concepts quickly and apply them to real life projects. I am confident that Sal’s technical aptitude in cutting edge web technologies combined with his commitment to improving his skills would make him a substantial addition to any engineering team.';
+  }
+
+  50% {
+    content: "During my time as a Teaching Assistant at the University of Toronto Bootcamp, I had the pleasure of mentoring Sal and witnessed his progress throughout the program. Sal was one of the most dedicated professionals through his work at UofT Coding Bootcamp. He was able to get up speed with basic web technologies and moved to more advanced subjects with a passion for learning more. Not only he completed all the course projects on time, but also made sure that he went above and beyond by taking the requirements to the next level. He strove to find out about industry standards and best practices and applied them to personal and team projects. Sal's work ethic, his knack for problem-solving and his ability to learn quickly would make him a valuable member of any development team.";
+  }
+
+  66% {
+    content: 'I worked alongside Sal in the role of Teaching Assistant for 6 months. He always strove to bring his code and projects to that next level of professional polish. The combination of his drive to be continuously learning and his personability has him poised to be a dynamic member of any team he sets out to join.';
   }
 
   100% {
@@ -308,6 +308,14 @@ blockquote p {
 @keyframes switchAuthors {
   0% {
     content: '~ Vishal Patel - University of Toronto Full Stack Bootcamp Lead Instructor';
+  }
+
+  50% {
+    content: '~ Ryan Udugampola - University of Toronto Full Stack Bootcamp Teaching Assistant';
+  }
+
+  66% {
+    content: '~ Sean Gillespie - University of Toronto Full Stack Bootcamp Teaching Assistant';
   }
 
   100% {
