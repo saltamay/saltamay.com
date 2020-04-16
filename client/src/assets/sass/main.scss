@@ -1776,6 +1776,7 @@ button,
   }
 
   .social {
+    @include vendor('transform', 'translateY(0)');
     display: flex;
     margin: 0;
     padding: 0;
@@ -1812,6 +1813,10 @@ button,
           transition: 0.3s all;
           height: 100%;
           width: 100%;
+        }
+
+        &:hover {
+          cursor: pointer;
         }
 
         &:hover:after {

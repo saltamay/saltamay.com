@@ -7,7 +7,11 @@ import Scroll from '../components/Scroll';
 import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
+
+import resume from '../assets/docs/sal-tamay-resume.pdf';
+
 import config from '../../config';
+
 const IndexPage = () => (
   <Layout>
     <section id="banner">
@@ -26,24 +30,8 @@ const IndexPage = () => (
         <ul className="social">
           <li>
             <a
-              className="fab fa-facebook-f"
-              // href={data.facebook}
-              target="_blank"
-              rel="noopener noreferrer"
-            ></a>
-          </li>
-          <li>
-            <a
-              className="fab fa-twitter"
-              // href={data.twitter}
-              target="_blank"
-              rel="noopener noreferrer"
-            ></a>
-          </li>
-          <li>
-            <a
-              className="fab fa-instagram"
-              // href={data.instagram}
+              className="fab fa-github"
+              href={config.socialLinks[0].url}
               target="_blank"
               rel="noopener noreferrer"
             ></a>
@@ -51,15 +39,31 @@ const IndexPage = () => (
           <li>
             <a
               className="fab fa-linkedin-in"
-              // href={data.linkdin}
+              href={config.socialLinks[1].url}
               target="_blank"
               rel="noopener noreferrer"
             ></a>
           </li>
           <li>
             <a
-              className="fab fa-github"
-              // href={data.github}
+              className="fab fa-twitter"
+              href={config.socialLinks[2].url}
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
+          <li>
+            <a
+              className="fas fa-paper-plane"
+              href={config.socialLinks[3].url}
+              target="_blank"
+              rel="noopener noreferrer"
+            ></a>
+          </li>
+          <li>
+            <a
+              className="fas fa-file"
+              href={resume}
               target="_blank"
               rel="noopener noreferrer"
             ></a>

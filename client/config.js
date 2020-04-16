@@ -20,6 +20,12 @@ module.exports = {
     },
     {
       style: 'brands',
+      icon: 'fa-linkedin',
+      name: 'Github',
+      url: 'https://github.com/saltamay',
+    },
+    {
+      style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
       url: 'https://twitter.com/saltamay',
@@ -29,6 +35,12 @@ module.exports = {
       icon: 'fa-envelope',
       name: 'Email',
       url: 'mailto:hi@saltamay.com',
+    },
+    {
+      style: 'solid',
+      icon: 'fa-file',
+      name: 'Resume',
+      url: '/#',
     },
   ],
 };
