@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Spectral', // <title>
-  manifestName: 'Spectral',
+  siteTitle: 'Sal Tamay - Home', // <title>
+  manifestName: 'Portfolio',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
@@ -16,19 +16,31 @@ module.exports = {
       style: 'brands',
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/saltamay',
+    },
+    {
+      style: 'brands',
+      icon: 'fa-linkedin',
+      name: 'Github',
+      url: 'https://github.com/saltamay',
     },
     {
       style: 'brands',
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/saltamay',
     },
     {
       style: 'solid',
       icon: 'fa-envelope',
       name: 'Email',
-      url: 'mailto:test@example.com',
+      url: 'mailto:hi@saltamay.com',
+    },
+    {
+      style: 'solid',
+      icon: 'fa-file',
+      name: 'Resume',
+      url: '/#',
     },
   ],
 };
