@@ -81,16 +81,15 @@ const IndexPage = () => (
       <div className="inner">
         <header className="major">
           <h2>
-            Arcu aliquet vel lobortis ata nisl
+            Hi there!
             <br />
-            eget augue amet aliquet nisl cep donec
+            Thank you for visiting my website.
           </h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
+            If you are looking to add a Full Stack Software Developer to your
+            team
             <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            you are in the right place, read on!
           </p>
         </header>
         <ul className="icons major">
@@ -113,7 +112,93 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section id="two" className="wrapper alt style2">
+    <section
+      // id="three"
+      className="wrapper style3 special"
+      style={{ backgroundColor: '#2B343D' }}
+    >
+      <div className="inner">
+        <header className="major">
+          {/* <li className="icon solid fa-code"> */}
+          <h2>Technologies</h2>
+          {/* </li> */}
+          <p>
+            Below some of the technologies I've worked or am familiar with.
+            <br />
+            {/* fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
+            ullamcorper. */}
+          </p>
+        </header>
+        <ul className="features">
+          <li className="fab fa-html5">
+            <h3>HTML5</h3>
+            <p>
+              HTML is the standard markup language for Web pages. CSS is a
+              language that describes the style of an HTML document.
+            </p>
+          </li>
+          <li className="fab fa-css3-alt">
+            <h3>CSS3</h3>
+            <p>
+              HTML is the standard markup language for Web pages. CSS is a
+              language that describes the style of an HTML document.
+            </p>
+          </li>
+          <li className="fab fa-js-square">
+            <h3>JavaScript/ES6</h3>
+            <p>
+              JavaScript is the programming language of HTML and the Web.
+              JavaScript is used to add interactivity to static web pages.
+            </p>
+          </li>
+          <li className="fab fa-python">
+            <h3>Python</h3>
+            <p>
+              Python’s elegant syntax and dynamic typing, together with its
+              interpreted nature, make it an ideal language for scripting and
+              rapid application development in many areas on most platforms.
+            </p>
+          </li>
+          <li className="fab fa-java">
+            <h3>Java</h3>
+            <p>
+              Java is a general-purpose programming language that is
+              class-based, object-oriented, and designed to have as few
+              implementation dependencies as possible
+            </p>
+          </li>
+          <li className="fab fa-react">
+            <h3>React.js</h3>
+            <p>
+              A JavaScript library for building user interfaces. React makes it
+              painless to create interactive UIs.
+            </p>
+          </li>
+          <li className="fab fa-node">
+            <h3>Node.js</h3>
+            <p>
+              Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript
+              engine. Node.js is designed to build scalable network
+              applications.
+            </p>
+          </li>
+          <li className="fas fa-database">
+            <h3>MongoDB</h3>
+            <p>
+              MongoDB is a cross-platform document-oriented database program.
+              Classified as a NoSQL database program, MongoDB uses JSON-like
+              documents
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section
+      id="two"
+      className="wrapper alt style2"
+      style={{ backgroundColor: '#21B2A6' }}
+    >
       <section className="spotlight">
         <div className="image">
           <img src={pic1} alt="" />
@@ -167,7 +252,7 @@ const IndexPage = () => (
     <section id="three" className="wrapper style3 special">
       <div className="inner">
         <header className="major">
-          <h2>Accumsan mus tortor nunc aliquet</h2>
+          <h2>Projects</h2>
           <p>
             Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
             eleifend
