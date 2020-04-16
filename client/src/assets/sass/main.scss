@@ -1533,7 +1533,8 @@ button,
   @include vendor('transform', 'translateX(20em)');
   @include vendor('transition', 'transform #{_duration(menu)} ease');
   -webkit-overflow-scrolling: touch;
-  background: _palette(accent1, bg);
+  // background: _palette(accent1, bg);
+  background: #000;
   color: _palette(accent1, fg-bold);
   height: 100%;
   max-width: 80%;
@@ -1774,6 +1775,52 @@ button,
     }
   }
 
+  .social {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+
+    li {
+      margin: 0 10px;
+
+      a {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #fff;
+        color: #fff;
+        position: relative;
+        overflow: hidden;
+
+        &:before {
+          position: relative;
+          z-index: 1;
+        }
+
+        &:after {
+          content: '';
+          background: #ff0;
+          position: absolute;
+          top: -100%;
+          left: 0;
+          -webkit-transition: 0.3s all;
+          transition: 0.3s all;
+          height: 100%;
+          width: 100%;
+        }
+
+        &:hover:after {
+          top: 0;
+        }
+      }
+    }
+  }
+
   .more {
     @include vendor(
       'transition',
@@ -1799,7 +1846,7 @@ button,
     z-index: 1;
 
     &:after {
-      background-image: url('../images/arrow.png');
+      background-image: url('../images/yellow-smile-timed.gif');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -2059,12 +2106,12 @@ body.landing,
     @include vendor(
       'background-image',
       (
-        'linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))',
+        'linear-gradient(to right, rgba(0,0,0,0.1), rgba(0,0,0,0.1))',
         'url("../images/banner.png")'
       )
     );
     background-attachment: fixed;
-    background-position: top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0;
