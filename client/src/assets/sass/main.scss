@@ -1127,6 +1127,18 @@ button,
     text-align: left;
     width: 50%;
 
+    h3 {
+      font-family: _font(family);
+    }
+
+    p {
+      font-family: _font(family);
+      margin: 0 0 2em 0;
+      letter-spacing: 0.075em;
+      line-height: 1.65em;
+      font-weight: normal;
+    }
+
     @for $i from 1 through _misc(max-features) {
       $j: 0.035 * $i;
 
