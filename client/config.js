@@ -36,11 +36,5 @@ module.exports = {
       name: 'Email',
       url: 'mailto:hi@saltamay.com',
     },
-    {
-      style: 'solid',
-      icon: 'fa-file',
-      name: 'Resume',
-      url: '/#',
-    },
   ],
 };
