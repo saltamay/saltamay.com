@@ -83,7 +83,7 @@ const IndexPage = () => (
           <h2>
             Hi there!
             <br />
-            Thank you for visiting my website.
+            Thank you for visiting my website
           </h2>
           <p>
             If you are looking to add a Full Stack Software Developer to your
@@ -335,54 +335,62 @@ const IndexPage = () => (
         <header className="major">
           <h2>Projects</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet
-            eleifend
-            <br />
-            fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus
-            ullamcorper.
+            During my time in Full Stack Web Development bootcamp at the
+            University of Toronto
+            <br />I have built different projects with vat variety of
+            technologies.
+            <br />I also succesfully completed Udacity's Front End and Backend
+            Nanodegrees.
           </p>
         </header>
         <ul className="features">
-          <li className="icon fa-paper-plane">
-            <h3>Arcu accumsan</h3>
+          <li className="fab fa-google">
+            <h3>Google Book Search</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Full Stack book library application built with React, Node,
+              Express, and MongoDB as well as GraphQL api.
             </p>
           </li>
-          <li className="icon solid fa-laptop">
-            <h3>Ac Augue Eget</h3>
+          <li className="fab fa-react">
+            <h3>React Portfolio</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              We initally designesd our portfilio websites without using any
+              frameworks. In this homework, I redesigned my portfolio website
+              using Gatsby.
             </p>
           </li>
-          <li className="icon solid fa-code">
-            <h3>Mus Scelerisque</h3>
+          <li className="fab fa-react">
+            <h3>Employee Directory</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              An employee directory with React. This app requires breaking up
+              the application's UI into components, manage component state, and
+              respond to user events.
             </p>
           </li>
-          <li className="icon solid fa-headphones-alt">
-            <h3>Mauris Imperdiet</h3>
+          <li className="fab fa-google">
+            <h3>PWA Budget Tracker</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              Progress web app (PWA) that lets users add expenses and deposits
+              to their budget with or without a connection. When entering
+              transactions offline, they should populate the total when brought
+              back online.
             </p>
           </li>
           <li className="icon fa-heart">
-            <h3>Aenean Primis</h3>
+            <h3>Workout Tracker</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              In this assignment, I worked on connecting front-end application
+              to MongoDB database that utilizes Mongoose using Node.js server
+              with Express.js.
             </p>
           </li>
-          <li className="icon fa-flag">
-            <h3>Tortor Ut</h3>
+          <li className="fab fa-node">
+            <h3>Node Express Handlebars</h3>
             <p>
-              Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem
-              tincidunt nullam amet leo Aenean ligula consequat consequat.
+              In this assignment, we are assigned to create a CRUD app with
+              MySQL, Node, Express, Handlebars and a custom ORM. The app follows
+              the MVC design pattern using Node and MySQL to query and route
+              data, and Handlebars to generate HTML.
             </p>
           </li>
         </ul>
