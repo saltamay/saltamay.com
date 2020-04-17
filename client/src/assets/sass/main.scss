@@ -746,6 +746,7 @@ input[type='radio'] {
   img {
     border-radius: 3px;
     display: block;
+    padding: 30px;
   }
 
   &.left {
@@ -1219,6 +1220,35 @@ button,
     @include vendor('order', '2');
     max-width: 48em;
     width: 60%;
+
+    ul {
+      display: flex;
+
+      li {
+        font-size: 32px;
+        list-style: none;
+        margin: 20px 20px 20px 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+          width: 36px;
+          height: 50px;
+        }
+
+        span {
+          display: block;
+          font-size: 18px;
+          margin-top: 10px;
+        }
+
+        .html {
+          color: #e44d26;
+        }
+      }
+    }
   }
 
   &:nth-child(2n) {
