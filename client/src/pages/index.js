@@ -197,53 +197,134 @@ const IndexPage = () => (
     <section
       id="two"
       className="wrapper alt style2"
-      style={{ backgroundColor: '#21B2A6' }}
+      style={{ backgroundColor: '#21B2A6', padding: '6em 0 0 0' }}
     >
+      <div className="inner" style={{ textAlign: 'center' }}>
+        <header className="major">
+          <h2>Featured Projects</h2>
+          <p>Below some of the technologies I've worked or am familiar with.</p>
+        </header>
+      </div>
       <section className="spotlight">
         <div className="image">
-          <img src={pic1} alt="" />
+          <a href="https://jobs-and-dragons.herokuapp.com/" target="_blank">
+            <img src={pic1} alt="" />
+          </a>
         </div>
         <div className="content">
-          <h2>
-            Magna primis lobortis
-            <br />
-            sed ullamcorper
-          </h2>
+          <h2>Jobs &amp; Dragons</h2>
+          {/* <br /> */}
+          <p>Finding work is hard!</p>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            Searching for a job in your field can be frustrating, repetitive,
+            laborious and boring. So why not make the process more fun? Our
+            Motivation in creating the Jobs&Dragons App was to create a platform
+            that was more engaging and fun for job searchers, new and
+            experienced alike.
+          </p>
+          <br />
+          <p>
+            Technologies:
+            <ul style={{ padding: 0 }}>
+              <li
+                style={{
+                  fontSize: 32,
+                  listStyle: 'none',
+                  marginTop: 20,
+                  padding: 0,
+                }}
+              >
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-node"></i>
+                <i class="fas fa-database"></i>
+              </li>
+            </ul>
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic2} alt="" />
+          <a href="https://saltamay.github.io/simply/" target="_blank">
+            <img src={pic2} alt="" />
+          </a>
         </div>
         <div className="content">
-          <h2>
-            Tortor dolore feugiat
-            <br />
-            elementum magna
-          </h2>
+          <h2>Simply</h2>
+          {/* <br /> */}
+          <p>We Find, You Love, Simple is that!</p>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            At Simply, we strive to remove the hassle from real estate
+            transactions and make the process better by making sure that
+            qualified leads are matched with listings that meet their
+            preferences and needs.
+            {/* Together, we can change the narrative around
+            real estate transactions. Simply, in most basic sense, is a real
+            estate listing aggregation web application but with a twist. Rather
+            than being just a platform on which users search for listing, we
+            strive to personalize the whole real estate experience for users by
+            first getting to know them. */}
+          </p>
+          <br />
+          <p>
+            Technologies:
+            <ul style={{ padding: 0 }}>
+              <li
+                style={{
+                  fontSize: 32,
+                  listStyle: 'none',
+                  marginTop: 20,
+                  padding: 0,
+                }}
+              >
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-node"></i>
+                <i class="fas fa-database"></i>
+              </li>
+            </ul>
           </p>
         </div>
       </section>
       <section className="spotlight">
         <div className="image">
-          <img src={pic3} alt="" />
+          <a href="https://v14-geckos-team-02.herokuapp.com/" target="_blank">
+            <img src={pic3} alt="" />
+          </a>
         </div>
         <div className="content">
           <h2>
-            Augue eleifend aliquet
-            <br />
-            sed condimentum
+            Quiz
+            {/* <br />
+            sed condimentum */}
           </h2>
+          <p>Practice your Algorithms & Data Structures Knowledge</p>
           <p>
-            Aliquam ut ex ut augue consectetur interdum. Donec hendrerit
-            imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.
+            This app helps you prepare for coding interviews on the web,
+            anywhere, anytime. Review and practice topics that are commonly
+            covered in technical interviews such as Data Structures and
+            Algorithms, and Time Complexities.
+          </p>
+          <p>
+            Technologies:
+            <ul style={{ padding: 0 }}>
+              <li
+                style={{
+                  fontSize: 32,
+                  listStyle: 'none',
+                  marginTop: 20,
+                  padding: 0,
+                }}
+              >
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-node"></i>
+                <i class="fas fa-database"></i>
+              </li>
+            </ul>
           </p>
         </div>
       </section>
