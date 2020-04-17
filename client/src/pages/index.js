@@ -400,16 +400,19 @@ const IndexPage = () => (
     <section id="cta" className="wrapper style4">
       <div className="inner">
         <header>
-          <h2>Arcue ut vel commodo</h2>
+          <h2>Get in touch</h2>
           <p>
-            Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet
-            eleifend fringilla.
+          Whether you are looking for your next hire
+              <br />
+              or you would like to discuss a contract oportunity
+              <br />
+              please feel free to get in touch
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="/#" className="button fit primary">
-              Activate
+            <a href="https://www.linkedin.com/in/saltamay-full-stack-developer/" className="button fit">
+              Contact
             </a>
           </li>
           <li>
