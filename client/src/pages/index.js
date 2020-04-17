@@ -8,6 +8,14 @@ import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 
+import html5Logo from '../assets/vectors/html5.svg';
+import css3Logo from '../assets/vectors/css3.svg';
+import javascript from '../assets/vectors/javascript.svg';
+import reactLogo from '../assets/vectors/react.svg';
+import nodeLogo from '../assets/vectors/nodejs.svg';
+import mongodbLogo from '../assets/vectors/mongodb.svg';
+
+
 import resume from '../assets/docs/sal-tamay-resume.pdf';
 
 import config from '../../config';
@@ -119,9 +127,7 @@ const IndexPage = () => (
     >
       <div className="inner">
         <header className="major">
-          {/* <li className="icon solid fa-code"> */}
           <h2>Technologies</h2>
-          {/* </li> */}
           <p>
             Below some of the technologies I've worked or am familiar with.
             <br />
@@ -225,20 +231,23 @@ const IndexPage = () => (
           <br />
           <p>
             Technologies:
-            <ul style={{ padding: 0 }}>
-              <li
-                style={{
-                  fontSize: 32,
-                  listStyle: 'none',
-                  marginTop: 20,
-                  padding: 0,
-                }}
-              >
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-node"></i>
-                <i class="fas fa-database"></i>
+            <ul>
+              <li>
+                <img src={html5Logo} alt="HTML5 Logo" />
+              </li>
+              <li>
+                <img src={css3Logo} alt="CSS3 Logo" />
+              </li>
+              <li>
+                <img src={reactLogo} alt="React Logo" />
+              </li>
+              <li>
+                <img src={nodeLogo} alt="Node.js Logo" style={{ paddingTop: 5 }}/>
+              </li>
+              <li>
+                <img src={mongodbLogo} alt="MongoDB Logo" style={{
+                  width: 54
+                }} />
               </li>
             </ul>
           </p>
@@ -269,21 +278,17 @@ const IndexPage = () => (
           <br />
           <p>
             Technologies:
-            <ul style={{ padding: 0 }}>
-              <li
-                style={{
-                  fontSize: 32,
-                  listStyle: 'none',
-                  marginTop: 20,
-                  padding: 0,
-                }}
-              >
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-node"></i>
-                <i class="fas fa-database"></i>
+            <ul>
+              <li>
+                <img src={html5Logo} alt="HTML5 Logo" />
               </li>
+              <li>
+                <img src={css3Logo} alt="CSS3 Logo" />
+              </li>
+              <li>
+                <img src={javascript} alt="JavaScript Logo" style={{ paddingTop: 10 }} />
+              </li>
+              
             </ul>
           </p>
         </div>
@@ -309,20 +314,15 @@ const IndexPage = () => (
           </p>
           <p>
             Technologies:
-            <ul style={{ padding: 0 }}>
-              <li
-                style={{
-                  fontSize: 32,
-                  listStyle: 'none',
-                  marginTop: 20,
-                  padding: 0,
-                }}
-              >
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-node"></i>
-                <i class="fas fa-database"></i>
+            <ul>
+              <li>
+                <img src={html5Logo} alt="HTML5 Logo" />
+              </li>
+              <li>
+                <img src={css3Logo} alt="CSS3 Logo" />
+              </li>
+              <li>
+                <img src={reactLogo} alt="React Logo" />
               </li>
             </ul>
           </p>
