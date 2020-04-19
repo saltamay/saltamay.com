@@ -21,11 +21,19 @@ export default function Nav({ onMenuToggle = () => {} }) {
               <li>
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/Generic">About</Link>
               </li>
               <li>
                 <Link to="/Elements">Work</Link>
+              </li> */}
+              <li>
+                <a
+                  href="https://saltamay.github.io/saltamay.com/"
+                  target="_blank"
+                >
+                  saltamay.com Version 1.0
+                </a>
               </li>
             </ul>
             <a
