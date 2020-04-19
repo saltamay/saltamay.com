@@ -1,6 +1,8 @@
 # saltamay.com
 
-My Personal website currently powered by HTML5, CSS3, and JavaScript
+I've recently did an overhaul on my portfolio website with Gatsby, Sass and cloud deploymenyt on Netlify. The previous version of the website still lives here:
+
+https://saltamay.github.io/saltamay.com/
 
 # About Me
 
