@@ -834,7 +834,6 @@ ul.actions {
   li {
     padding: 0 0 0 (_size(element-margin) * 0.5);
     vertical-align: middle;
-
   }
 
   &.special {
@@ -1302,6 +1301,13 @@ button,
       max-width: none;
       text-align: center;
       width: 100%;
+
+      p {
+        ul {
+          display: flex;
+          justify-content: center;
+        }
+      }
     }
   }
 
