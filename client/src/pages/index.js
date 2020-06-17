@@ -15,7 +15,6 @@ import reactLogo from '../assets/vectors/react.svg';
 import nodeLogo from '../assets/vectors/nodejs.svg';
 import mongodbLogo from '../assets/vectors/mongodb.svg';
 
-
 import resume from '../assets/docs/sal-tamay-resume.pdf';
 
 import config from '../../config';
@@ -242,12 +241,20 @@ const IndexPage = () => (
                 <img src={reactLogo} alt="React Logo" />
               </li>
               <li>
-                <img src={nodeLogo} alt="Node.js Logo" style={{ paddingTop: 5 }}/>
+                <img
+                  src={nodeLogo}
+                  alt="Node.js Logo"
+                  style={{ paddingTop: 5 }}
+                />
               </li>
               <li>
-                <img src={mongodbLogo} alt="MongoDB Logo" style={{
-                  width: 54
-                }} />
+                <img
+                  src={mongodbLogo}
+                  alt="MongoDB Logo"
+                  style={{
+                    width: 54,
+                  }}
+                />
               </li>
             </ul>
           </p>
@@ -286,9 +293,12 @@ const IndexPage = () => (
                 <img src={css3Logo} alt="CSS3 Logo" />
               </li>
               <li>
-                <img src={javascript} alt="JavaScript Logo" style={{ paddingTop: 10 }} />
+                <img
+                  src={javascript}
+                  alt="JavaScript Logo"
+                  style={{ paddingTop: 10 }}
+                />
               </li>
-              
             </ul>
           </p>
         </div>
@@ -402,21 +412,24 @@ const IndexPage = () => (
         <header>
           <h2>Get in touch</h2>
           <p>
-          Whether you are looking for your next hire
-              <br />
-              or you would like to discuss a contract oportunity
-              <br />
-              please feel free to get in touch
+            Whether you are looking for your next hire
+            <br />
+            or you would like to discuss a contract oportunity
+            <br />
+            please feel free to get in touch
           </p>
         </header>
         <ul className="actions stacked">
           <li>
-            <a href="https://www.linkedin.com/in/saltamay-full-stack-developer/" className="button fit">
+            <a href={resume} className="button fit">
               Contact
             </a>
           </li>
           <li>
-            <a href="/#" className="button fit">
+            <a
+              href="https://www.linkedin.com/in/saltamay-full-stack-developer/"
+              className="button fit"
+            >
               Learn More
             </a>
           </li>
