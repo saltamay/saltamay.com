@@ -311,6 +311,14 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
+          <Link
+            to="/simply"
+            className="button fit"
+            target="_blank"
+            style={{ width: 240 }}
+          >
+            Learn More
+          </Link>
         </div>
       </section>
       <section className="spotlight">
