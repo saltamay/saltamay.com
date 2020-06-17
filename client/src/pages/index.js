@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby';
 
 import Layout from '../components/Layout';
 
@@ -210,15 +211,16 @@ const IndexPage = () => (
           <p>Below some of the technologies I've worked or am familiar with.</p>
         </header>
       </div>
-      <section className="spotlight">
+      <section className="spotlight" style={{ paddingBottom: 40 }}>
         <div className="image">
           <a href="https://jobs-and-dragons.herokuapp.com/" target="_blank">
             <img src={pic1} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>Jobs &amp; Dragons</h2>
-          {/* <br /> */}
+          <Link to="/jobs-and-dragons">
+            <h2>Jobs &amp; Dragons</h2>
+          </Link>
           <p>Finding work is hard!</p>
           <p>
             Searching for a job in your field can be frustrating, repetitive,
@@ -258,9 +260,17 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
+          <Link
+            to="/jobs-and-dragons"
+            className="button fit"
+            target="_blank"
+            style={{ width: 240 }}
+          >
+            Learn More
+          </Link>
         </div>
       </section>
-      <section className="spotlight">
+      <section className="spotlight" style={{ paddingBottom: 40 }}>
         <div className="image">
           <a href="https://saltamay.github.io/simply/" target="_blank">
             <img src={pic2} alt="" />
@@ -421,7 +431,7 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href={resume} className="button fit">
+            <a href={resume} className="button fit" target="_blank">
               Contact
             </a>
           </li>
@@ -429,6 +439,7 @@ const IndexPage = () => (
             <a
               href="https://www.linkedin.com/in/saltamay-full-stack-developer/"
               className="button fit"
+              target="_blank"
             >
               Learn More
             </a>
