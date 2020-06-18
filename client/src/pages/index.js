@@ -213,13 +213,9 @@ const IndexPage = () => (
       </div>
       <section className="spotlight" style={{ paddingBottom: 40 }}>
         <div className="image">
-          <a
-            href="https://jobs-and-dragons.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <Link to="/jobs-and-dragons">
             <img src={pic1} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="content">
           <Link to="/jobs-and-dragons">
@@ -303,9 +299,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight" style={{ paddingBottom: 40 }}>
         <div className="image">
-          <a href="https://saltamay.github.io/simply/" target="_blank">
+          <Link to="/simply">
             <img src={pic2} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="content">
           <Link to="/simply">
@@ -376,9 +372,9 @@ const IndexPage = () => (
       </section>
       <section className="spotlight" style={{ paddingBottom: 40 }}>
         <div className="image">
-          <a href="https://v14-geckos-team-02.herokuapp.com/" target="_blank">
+          <Link to="/quiz-app">
             <img src={pic3} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="content">
           <Link to="/quiz-app">
