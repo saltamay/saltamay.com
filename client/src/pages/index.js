@@ -524,7 +524,12 @@ const IndexPage = () => (
         </header>
         <ul className="actions stacked">
           <li>
-            <a href={resume} className="button fit" target="_blank">
+            <a
+              href={resume}
+              className="button fit"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Contact
             </a>
           </li>
@@ -533,6 +538,7 @@ const IndexPage = () => (
               href="https://www.linkedin.com/in/saltamay-full-stack-developer/"
               className="button fit"
               target="_blank"
+              rel="noopener noreferrer"
             >
               Learn More
             </a>

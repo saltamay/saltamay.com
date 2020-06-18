@@ -22,7 +22,7 @@ module.exports = {
       style: 'brands',
       icon: 'fa-linkedin',
       name: 'Github',
-      url: 'https://github.com/saltamay',
+      url: 'https://www.linkedin.com/in/saltamay-full-stack-developer/',
     },
     {
       style: 'brands',
