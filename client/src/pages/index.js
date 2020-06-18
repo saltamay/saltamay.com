@@ -316,18 +316,16 @@ const IndexPage = () => (
           </Link>
         </div>
       </section>
-      <section className="spotlight">
+      <section className="spotlight" style={{ paddingBottom: 40 }}>
         <div className="image">
           <a href="https://v14-geckos-team-02.herokuapp.com/" target="_blank">
             <img src={pic3} alt="" />
           </a>
         </div>
         <div className="content">
-          <h2>
-            Quiz
-            {/* <br />
-            sed condimentum */}
-          </h2>
+          <Link to="/quiz-app">
+            <h2>Quiz</h2>
+          </Link>
           <p>Practice your Algorithms & Data Structures Knowledge</p>
           <p>
             This app helps you prepare for coding interviews on the web,
@@ -349,6 +347,14 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
+          <Link
+            to="/quiz-app"
+            className="button fit"
+            target="_blank"
+            style={{ width: 240 }}
+          >
+            Learn More
+          </Link>
         </div>
       </section>
     </section>
