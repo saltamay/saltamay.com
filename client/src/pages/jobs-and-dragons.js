@@ -15,14 +15,19 @@ const IndexPage = () => (
   <Layout fullMenu>
     <article id="main">
       <header>
-        <div className="image">
-          <a
-            href="https://jobs-and-dragons.herokuapp.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src={logo} alt="" />
-          </a>
+        <div
+          className="spotlight"
+          style={{ flexDirection: 'row', justifyContent: 'center' }}
+        >
+          <di className="image">
+            <a
+              href="https://jobs-and-dragons.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={logo} alt="" />
+            </a>
+          </di>
         </div>
         <p>
           University of Toronto Full-Stack Web Developer Bootcamp Capstone
