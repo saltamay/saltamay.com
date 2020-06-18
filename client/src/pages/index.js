@@ -229,6 +229,9 @@ const IndexPage = () => (
             that was more engaging and fun for job searchers, new and
             experienced alike.
           </p>
+          <div>Guest Account:</div>
+          <div>Username: jobsanddragons@gmail.com</div>
+          <div>Password: J&Dteam2020</div>
           <br />
           <p>
             Technologies:
