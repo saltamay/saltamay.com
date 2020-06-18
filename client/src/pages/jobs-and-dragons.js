@@ -16,7 +16,11 @@ const IndexPage = () => (
     <article id="main">
       <header>
         <div className="image">
-          <a href="https://jobs-and-dragons.herokuapp.com/" target="_blank">
+          <a
+            href="https://jobs-and-dragons.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={logo} alt="" />
           </a>
         </div>
@@ -24,18 +28,44 @@ const IndexPage = () => (
           University of Toronto Full-Stack Web Developer Bootcamp Capstone
           Project
         </p>
+        <ul
+          className="actions stacked"
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'center',
+          }}
+        >
+          <li>
+            <a
+              href="https://jobs-and-dragons.herokuapp.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button fit"
+            >
+              Demo
+            </a>
+          </li>
+        </ul>
       </header>
       <section
         className="spotlight"
         style={{ paddingTop: '50px', paddingBottom: '150px' }}
       >
         <div className="image">
-          <a href="https://jobs-and-dragons.herokuapp.com/" target="_blank">
+          <a
+            href="https://jobs-and-dragons.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={pic1} alt="" />
           </a>
         </div>
         <div className="content">
-          <a href="https://jobs-and-dragons.herokuapp.com/" target="_blank">
+          <a
+            href="https://jobs-and-dragons.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h2>Jobs &amp; Dragons</h2>
           </a>
           <p>Finding work is hard!</p>
