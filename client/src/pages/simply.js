@@ -14,11 +14,33 @@ const IndexPage = () => (
     <article id="main">
       <header>
         <div className="image">
-          <a href="https://saltamay.github.io/simply/" target="_blank">
+          <a
+            href="https://saltamay.github.io/simply/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={logo} alt="" style={{ width: 340 }} />
           </a>
         </div>
         <p>We Find, You Love, Simple is that</p>
+        <ul
+          className="actions stacked"
+          style={{
+            flexDirection: 'row',
+            justifyContent: 'center',
+          }}
+        >
+          <li>
+            <a
+              href="https://saltamay.github.io/simply/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button fit"
+            >
+              Demo
+            </a>
+          </li>
+        </ul>
       </header>
       <section
         className="spotlight"
@@ -28,12 +50,20 @@ const IndexPage = () => (
         }}
       >
         <div className="image" style={{ paddingTop: 90 }}>
-          <a href="https://saltamay.github.io/simply/" target="_blank">
+          <a
+            href="https://saltamay.github.io/simply/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={pic2} alt="" />
           </a>
         </div>
         <div className="content">
-          <a href="https://saltamay.github.io/simply/" target="_blank">
+          <a
+            href="https://saltamay.github.io/simply/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <h2>Simply</h2>
           </a>
           <p>
