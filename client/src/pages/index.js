@@ -213,7 +213,11 @@ const IndexPage = () => (
       </div>
       <section className="spotlight" style={{ paddingBottom: 40 }}>
         <div className="image">
-          <a href="https://jobs-and-dragons.herokuapp.com/" target="_blank">
+          <a
+            href="https://jobs-and-dragons.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src={pic1} alt="" />
           </a>
         </div>
@@ -260,11 +264,38 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
+          <a
+            href="https://jobs-and-dragons.herokuapp.com/"
+            className="button fit"
+            target="_blank"
+            rel="noopener noreferrer"
+            onMouseOver="() => {
+              style:
+            }"
+            style={{
+              backgroundColor: '#ff0',
+              color: '#000',
+              boxShadow: 'none',
+              display: 'inline-block',
+              marginRight: 15,
+              padding: 12,
+              lineHeight: 'normal',
+              width: '30%',
+            }}
+          >
+            Demo
+          </a>
           <Link
             to="/jobs-and-dragons"
             className="button fit"
             target="_blank"
-            style={{ width: 240 }}
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: 12,
+              lineHeight: 'normal',
+              width: '30%',
+            }}
           >
             Learn More
           </Link>
@@ -306,11 +337,38 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
+          <a
+            href="https://saltamay.github.io/simply/"
+            className="button fit"
+            target="_blank"
+            rel="noopener noreferrer"
+            onMouseOver="() => {
+              style:
+            }"
+            style={{
+              backgroundColor: '#ff0',
+              color: '#000',
+              boxShadow: 'none',
+              display: 'inline-block',
+              marginRight: 15,
+              padding: 12,
+              lineHeight: 'normal',
+              width: '30%',
+            }}
+          >
+            Demo
+          </a>
           <Link
             to="/simply"
             className="button fit"
             target="_blank"
-            style={{ width: 240 }}
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: 12,
+              lineHeight: 'normal',
+              width: '30%',
+            }}
           >
             Learn More
           </Link>
@@ -347,11 +405,38 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
+          <a
+            href="https://v14-geckos-team-02.herokuapp.com/"
+            className="button fit"
+            target="_blank"
+            rel="noopener noreferrer"
+            onMouseOver="() => {
+              style:
+            }"
+            style={{
+              backgroundColor: '#ff0',
+              color: '#000',
+              boxShadow: 'none',
+              display: 'inline-block',
+              marginRight: 15,
+              padding: 12,
+              lineHeight: 'normal',
+              width: '30%',
+            }}
+          >
+            Demo
+          </a>
           <Link
             to="/quiz-app"
             className="button fit"
             target="_blank"
-            style={{ width: 240 }}
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: 12,
+              lineHeight: 'normal',
+              width: '30%',
+            }}
           >
             Learn More
           </Link>
