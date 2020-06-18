@@ -277,20 +277,15 @@ const IndexPage = () => (
           </a>
         </div>
         <div className="content">
-          <h2>Simply</h2>
-          {/* <br /> */}
+          <Link to="/simply">
+            <h2>Simply</h2>
+          </Link>
           <p>We Find, You Love, Simple is that!</p>
           <p>
             At Simply, we strive to remove the hassle from real estate
             transactions and make the process better by making sure that
             qualified leads are matched with listings that meet their
             preferences and needs.
-            {/* Together, we can change the narrative around
-            real estate transactions. Simply, in most basic sense, is a real
-            estate listing aggregation web application but with a twist. Rather
-            than being just a platform on which users search for listing, we
-            strive to personalize the whole real estate experience for users by
-            first getting to know them. */}
           </p>
           <br />
           <p>
